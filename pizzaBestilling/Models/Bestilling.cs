@@ -1,3 +1,5 @@
+using System;
+
 namespace pizzaBestilling.Models
 {
 	public class Bestilling
@@ -5,10 +7,12 @@ namespace pizzaBestilling.Models
 		private Pizza EnPizza;
 		private Kunde EnKunde;
 		private int AntallPizzaBestilt; 
-    }
+    
 	
-	static void main(string [] args)
+	static void Main(string [] args)
     {
 		Console.WriteLine("Hello World!"); 
     }
+
+	}
 }
