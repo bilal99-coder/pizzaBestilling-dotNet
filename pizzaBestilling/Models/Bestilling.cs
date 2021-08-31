@@ -7,4 +7,8 @@ namespace pizzaBestilling.Models
 		private int AntallPizzaBestilt; 
     }
 	
+	static void main(string [] args)
+    {
+		Console.WriteLine("Hello World!"); 
+    }
 }
