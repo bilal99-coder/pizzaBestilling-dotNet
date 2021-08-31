@@ -1,0 +1,75 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <name charset="utf-8" />
+    <title>Bestill din Pizza</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css" />
+    <script src="js/index.js"></script>
+</head>
+<body>
+    <div class="container ">
+        <nav class="navbar">
+            <div class="max-width">
+                <div class="logo"></div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="index.html">Holbergs Pizza</a></li>
+                        <li><a href="bestillinger.html">Bestillinger</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section>
+            <h1 class="tittel">Bestilling</h1>
+            <form class="form">
+                <fieldset>
+                    <legend>Velg Din Favoritt Pizza</legend>
+                    <label for="PizzaType">Pizza Type</label>
+                    <select id="PizzaType" name="PizzaType">
+                        <option selected>Margarita (kr 100)</option>
+                        <option selected>MeatBalls (kr 180)</option>
+                        <option selected>KyllingDiana (kr 160)</option>
+                        <option selected>Romana (kr 210)</option>
+                        <option selected>Prima (kr 190)</option>
+                    </select>
+
+                    <p>PizzaTrykkelse</p>
+                    <div class="radio-input">
+                        <label class="pizzaTrykkelse">
+                            <input type="radio" name="PizzaTrykkelse" value="Tynn">Tynn
+                        </label>
+                        <label class="pizzaTrykkelse">
+                            <input type="radio" name="PizzaTrykkelse" value="Tykk">Tykk
+                        </label>
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for="Antall">Antall</label>
+                        <input type="number" id="antall" name="antall" min="1" max="20">
+                    </div>
+                    <legend>DIN INFO</legend>
+                    <div class="form-group">
+                        <label for="navn">Navn</label>
+                        <input type="text" id="navn" name="navn" autofocus />
+                    </div>
+                    <div class="form-group">
+                        <label for="adresse">Adresse</label>
+                        <input type="text" id="adresse" name="adresse" />
+                    </div>
+                    <div class="form-group">
+                        <label for="tel">Telefonnr</label>
+                        <input type="tel" id="phone" name="phone" />
+                    </div>
+                    <button type="submit">Bestill</button>
+                </fieldset>
+            </form>
+        </section>
+    </div>
+
+</body>
+</html>

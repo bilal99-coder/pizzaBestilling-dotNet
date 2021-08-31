@@ -1,0 +1,90 @@
+﻿body {
+    /* background-color: blanchedalmond; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container {
+    width: 50%;
+    margin:0 auto;
+    padding: 1em;
+    display:flex;
+    flex-flow: row nowrap;
+
+}
+
+.navbar {
+    position: fixed;
+    width: inherit;
+    padding: 15px 15px;
+
+    background: #222222;
+}
+.navbar .max-width{
+    display: flex; 
+    align-items: center;
+}
+    .navbar .menu li a {
+        display: inline-block;
+        font-size: 2em;
+        color: #787470;
+        margin-left:1.4rem;
+    }
+    .navbar .menu li {
+        display: flex;
+        list-style: none;
+        display: inline-block;
+    }
+.tittel{
+    margin-top: 2.5em;
+    margin-bottom: 0.4em;
+}
+legend{
+   
+}
+label{
+    display: block;
+    float: left;
+    width: 10rem;
+    margin-right: 2rem;
+    margin-left:1rem
+    
+}
+select{
+    font-size: 1.5rem;
+    display: block;
+}
+
+input:not([type=radio]) {
+    display: inline-block;
+    margin-bottom: 1.3rem;
+}
+p {
+    display: block;
+    padding: 0;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    width: max-content;
+    font-weight:bold;
+    
+}
+
+input[type='radio'] {
+    display: inline-block ;
+    margin-bottom: 1.8rem;
+   
+}
+input[type=number] {
+    display: block;
+    width: 18rem;
+}
+button{
+    margin-left: 1rem;
+}
+
+section .radio-input .pizzaTrykkelse{
+    margin-left: 10rem;
+}
+   
